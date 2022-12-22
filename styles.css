@@ -1,0 +1,175 @@
+/* https://colorhunt.co/palette/e4f9f530e3ca11999e40514e */
+
+body {
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #810CA8;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /* 16px = 100% = 1em  90/16=5.625*/
+}
+
+h2 {
+    color: #810CA8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* 40/16px=2.5rem */
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #810CA8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height:2;
+}
+
+hr {
+    color: white;
+    border-top: dotted #EAF6F6 6px;
+    width: 6%;
+}
+
+a {
+    color: #810CA8;
+    margin: 10px 20px ;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #efefef;
+}
+
+.top-container .cloud1{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+
+.top-container .cloud2{
+    position: absolute;
+    bottom: 400px;
+    left: 200px;
+}
+
+.top-container {
+    background-image: url(twilight-cloud.jpg);
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    padding-top:100px;
+}
+
+.middle-container {
+    padding-top:100px;
+}
+
+.profile-text {
+    width: 20%;
+    margin: auto;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.profile img {
+    width: 20%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row .skill1 {
+    width:25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row .skill2 {
+    width:25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-me {
+    margin-bottom:50px;
+}
+.contact-message {
+    width:40%;
+    margin: 50px auto 50px auto; 
+}
+
+.btn {
+    background: #2D033B;
+    background-image: -webkit-linear-gradient(top, #2D033B, #810CA8);
+    background-image: -moz-linear-gradient(top, #2D033B, #810CA8);
+    background-image: -ms-linear-gradient(top, #2D033B, #810CA8);
+    background-image: -o-linear-gradient(top, #2D033B, #810CA8);
+    background-image: linear-gradient(to bottom, #2D033B, #810CA8);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #C147E9;
+    background-image: -webkit-linear-gradient(top, #C147E9, #E5B8F4);
+    background-image: -moz-linear-gradient(top, #C147E9, #E5B8F4);
+    background-image: -ms-linear-gradient(top, #C147E9, #E5B8F4);
+    background-image: -o-linear-gradient(top, #C147E9, #E5B8F4);
+    background-image: linear-gradient(to bottom, #C147E9, #E5B8F4);
+    text-decoration: none;
+  }
+
+.bottom-container {
+    background-color: #C147E9;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding:20px 0;
+}
+/* 
+.top-container {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.middle-container {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+.bottom-container {
+    background-color:greenyellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+} */
