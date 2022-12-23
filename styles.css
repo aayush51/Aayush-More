@@ -234,11 +234,11 @@ a:hover {
 @media only screen and (max-width:600px){
     .top-container .mountain {
         position: relative;
-        top: 60px;
+        top: 110px;
         width: 100%; 
     }
     .top-container {
-        padding-bottom:50px;
+        padding-bottom:100px;
     } 
     .top-container .cloud1{
         position: absolute;
