@@ -9,9 +9,9 @@ body {
 
 h1 {
     color: #810CA8;
-    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem; /* 16px = 100% = 1em  90/16=5.625*/
+    margin: 50px auto 0 auto;
 }
 
 h2 {
@@ -32,8 +32,9 @@ p {
 }
 
 hr {
-    color: white;
+    border: 0px;
     border-top: dotted #EAF6F6 6px;
+    color: white;
     width: 6%;
 }
 
@@ -49,8 +50,8 @@ a:hover {
 
 .top-container .cloud1{
     position: absolute;
-    top: 100px;
     right: 200px;
+    top: 100px;
 }
 
 .top-container .cloud2{
@@ -58,13 +59,16 @@ a:hover {
     bottom: 400px;
     left: 200px;
 }
-
+.bottom-container .mountain{
+    position: relative;
+    bottom: 0px;
+}
 .top-container {
     background-image: url(twilight-cloud.jpg);
     background-position: center;
     background-size: 100%;
-    position: relative;
     padding-top:100px;
+    position: relative;
 }
 
 .middle-container {
@@ -72,8 +76,11 @@ a:hover {
 }
 
 .profile-text {
-    width: 20%;
     margin: auto;
+    width: 20%;
+}
+.profile-text {
+    padding-bottom: 50px;
 }
 
 .web {
@@ -84,31 +91,34 @@ a:hover {
     width: 20%;
 }
 
+.skills h2 {
+    margin-top: 50px;
+}
 .skill-row {
-    width: 50%;
     margin: 100px auto 100px auto;
-    text-align: left;
     line-height: 2;
+    text-align: left;
+    width: 50%;
 }
 .skill-row .skill1 {
-    width:25%;
     border-radius: 50%;
     float: left;
     margin-right: 30px;
+    width:25%;
 }
 
 .skill-row .skill2 {
-    width:25%;
     border-radius: 50%;
     float: right;
     margin-left: 30px;
+    width:25%;
 }
 .contact-me {
     margin-bottom:50px;
 }
 .contact-message {
-    width:40%;
     margin: 50px auto 50px auto; 
+    width:40%;
 }
 
 .btn {
@@ -152,9 +162,9 @@ a:hover {
 @media only screen and (max-width: 1080px) {
     h1 {
         color: #810CA8;
-        margin: 50px auto 0 auto;
         font-family: 'Sacramento', cursive;
         font-size: 5.625rem; /* 16px = 100% = 1em  90/16=5.625*/
+        margin: 50px auto 0 auto;
     }
     
     h2 {
@@ -164,17 +174,18 @@ a:hover {
         font-weight: normal;
         padding-bottom: 10px;
     }
-    hr {
-        color: white;
+    hr {    
+        border: 0px;
         border-top: dotted #EAF6F6 6px;
-        width: 8%;
+        color: white;
         margin-bottom: 50px;
+        width: 8%;
     }
     .top-container {
         background-image: none;
         background-color: #E5B8F4;
-        position: relative;
         padding-top:80px;
+        position: relative;
     } 
     .top-container .cloud1{
         position: absolute;
@@ -197,14 +208,14 @@ a:hover {
     }
     
     .profile-text {
-        width: 50%;
         margin: auto auto 50px auto;
+        width: 50%;
     } 
     .skill-row {
-        width: 80%;
         margin: 100px auto 100px auto;
-        text-align: left;
         line-height: 2;
+        text-align: left;
+        width: 80%;
     }
     .skill-row .skill1 {
         width:40%;
@@ -215,8 +226,8 @@ a:hover {
     }
     
     .contact-message {
-        width:60%;
         margin: 70px auto 70px auto; 
+        width:60%;
     }
     .contact-me {
         margin-bottom:100px;
@@ -258,6 +269,8 @@ a:hover {
         clear:right;
     }
 }
+
+
 /* 
 .top-container {
     background-color: gold;
